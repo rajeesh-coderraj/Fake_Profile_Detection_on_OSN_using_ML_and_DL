@@ -1,0 +1,14 @@
+Deep Learning Tutorial – What is Neural Networks in Machine Learning
+1. Deep Learning Tutorial – Objective
+https://data-flair.training/blogs/deep-learning-tutorial/
+
+2.age and gender detection
+https://www.analyticsvidhya.com/blog/2021/07/age-and-gender-detection-using-deep-learning/
+
+
+Age and gender
+https://www.kaggle.com/code/anantgupt/pytorch-age-gender-ethnicity-prediction/notebook
+
+
+
+
