@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from 120.72.91.53/themeforest/academy/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Aug 2017 05:49:08 GMT -->
+<head>
+    <!-- Meta information -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><!-- Mobile Specific Metas -->
+    
+    <!-- Title -->
+    <title>FAKE PROFILE DETECTION ON ONLINE SOCIAL NETWORKS</title>
+    
+    
+    
+    <!-- CSS Stylesheet -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------<title> Website Layout | CodingLab</title>------>
+    <link rel="stylesheet" href="F:\New folder\Fake_Profile_Detection_using_ML_and_dd\css\style.css">
+    <!-- Our css file -->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/carousel.css') }}">
+    <!---------------------------------------------------------------------------------------- -->
+<body>
+  <div height="30%" class="header-wrap">
+    <div style=height="10%"  class="header">
+      <div class="logo">
+        <h1>Fake Profile Detection On Social Network Websites</h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#"> </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!---header-wrap-end-  -->
+  <div class="banner-wrap">
+    <div width="100%" class="banner">
+      <div class="banner-img">
+    <div  id="carousel">
+      <div  id="slides">
+         
+              <li><img  width="100%" src="{{ url_for('static', filename='images/b.jpg') }}"  alt="Slide 1"/></li>
+              
+         
+          
+          <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+      <div id="buttons"> <a href="#" id="prev">prev</a> <a href="#" id="next">next</a>
+          <div class="clear"></div>
+      </div>
+  </div>
+</div>
+	
+</div>
+
+</div>
+<div class="clearing"></div>
+</div>
+<!---banner-end- -->
+
+  
+<div class="center"  style="color:red;width:100% ;padding-top:0px;height:50%;background-color: #f2f1f1;" >
+    
+  
+
+
+
+     <form style="width=100%;height=40%" action="{{ url_for('predictnn')}}"method="post">
+ 
+        <div class="btns">
+          <button style="color:red;width:30%;height:50%;background-color: #f1f1f2;color: black;
+          font-size: 16px;
+          padding: 16px 30px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          text-align: center;"  class="btn" href="F:\New folder\Fake_Profile_Detection_using_ML_and_dd\Templates\resultnn.html">Neural Network </button>
+        </div>
+  
+  
+      </form>
+
+      <form action="{{ url_for('predictsvm')}}"method="post">
+        <h2 style=font-size="10%""; padding-left="10%">MODELS</h2>
+          <div class="btns">
+            <button  style="color:red;width:30%;height:50%;background-color: #f1f1f2;
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;" href="F:\New folder\Fake_Profile_Detection_using_ML_and_dd\Templates\resultsvm.html">COMBINED </button>
+          </div>
+    
+    
+          </form>
+</div>
+
+
+
+  <div class="footer-wrap">
+    <div class="footer">
+      <div class="content mar-right30">
+        
+      </div>
+    
+      <div class="content">
+        <h1>Follow us</h1>
+        <div class="social">
+          <ul>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/aim.png') }}" alt="aim" /></a></li>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/facebook.png') }}" alt="aim" /></a></li>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/tiwter.png') }}" alt="aim" /></a></li>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/linkedin.png') }}alt="aim" /></a></li>
+          </ul>
+        </div>
+       
+      </div>
+      <div class="clearing"></div>
+    </div>
+    <div class="clearing"></div>
+  </div>
+  <div class="clearing"></div>
+  <div class="copyright-wrap">
+    <div class="copyright">
+      <div class="content">
+        <p>Copyright (c) websitename. All rights reserved. <a href="" class="active">Fakeprofile.com</a>> Images From: <a href="www.photorack.net">www.abcd.net</a></p>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>
